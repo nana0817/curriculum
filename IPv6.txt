@@ -13,15 +13,15 @@
 　　AA AA AA   AA AA AA
 
 　②「FFFE」の挿入
-　　AA AA AA FF EE AA AA AA
+　　AA AA AA FF FE AA AA AA
 
 　③2進数に変換し、7ビット目を反転
 　　1010 1010 → 1010 1000
 
 　④反転させたビットを16進数に変換
-　　A8 AA AA FF EE AA AA AA
+　　A8 AA AA FF FE AA AA AA
 
-　インターフェースID：A8 AA AA FF EE AA AA AA
+　インターフェースID：A8 AA AA FF FE AA AA AA
 
 
 （２）MACアドレス：9876.5432.10FE
@@ -29,15 +29,15 @@
 　　98 76 54   32 10 FE
 
 　②「FFFE」の挿入
-　　98 76 54 FF EE 32 10 FE
+　　98 76 54 FF FE 32 10 FE
 
 　③2進数に変換し、7ビット目を反転
-　　1001 1000 → 1010 1010
+　　1001 1000 → 1001 1010
 
 　④反転させたビットを16進数に変換
-　　99 76 54 FF EE 32 10 FE
+　　9A 76 54 FF FE 32 10 FE
 
-　インターフェースID：99 76 54 FF EE 32 10 FE
+　インターフェースID：9A 76 54 FF FE 32 10 FE
 
 
 （３）MACアドレス：FFFF.FFFF.FFFF
@@ -45,12 +45,12 @@
 　　FF FF FF   FF FF FF
 
 　②「FFFE」の挿入
-　　FF FF FF FF EE FF FF FF
+　　FF FF FF FF FE FF FF FF
 
 　③2進数に変換し、7ビット目を反転
 　　1111 1111 → 1111 1101
 
 　④反転させたビットを16進数に変換
-　　FD FF FF FF EE FF FF FF
+　　FD FF FF FF FE FF FF FF
 
-　インターフェースID：FD FF FF FF EE FF FF FF
+　インターフェースID：FD FF FF FF FE FF FF FF
