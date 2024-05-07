@@ -46,7 +46,7 @@ https://www.infraexpert.com/study/networking1.html
 ・全てのコンピュータが互いに直接接続されているトポロジーのこと。
 
 帯域
-・通信に使われる波の周波数の範囲
+・通信に使われる周波数の範囲
 ・「通信速度」とも言い換えられる
 https://wa3.i-3-i.info/word13231.html
 
@@ -67,7 +67,7 @@ https://www.ntt-west.co.jp/business/glossary/words-00214.html
 ドメイン
 ・インターネット上の住所
 ・Webサイトがどこにあるかを判別する情報
-https://muumuu-domain.com/supports/about-domain
+https://www.xdomain.ne.jp/column/basic-domain/
 
 ポート
 ・ネットワークの接続を開始したり、修了したりする、OS上の仮想的な場所。
@@ -168,14 +168,14 @@ https://zenn.dev/masahiro_toba/articles/126b93a427ea72
 
 ■ データリンク層
 イーサネット
-・パソコンなどの危機をインターネットに有線接続する際に用いられる通信規格
+・パソコンなどの機器をインターネットに有線接続する際に用いられる通信規格
 https://www.iodata.jp/column/nas/015/index.htm
 イーサネット
 ・イーサネットのうち、通信速度が最大10Mbpsのもの。
 ファストイーサネット
 ・イーサネットのうち、通信速度が最大100Mbpsのもの。
 ギガビットイーサネット
-・イーサネットのうち、通信速度が最大1,000Mbpsのもの。
+・イーサネットのうち、通信速度が最大1,000Mbps(1Gbps)のもの。
 イーサネットヘッダ(?)
 ・イーサネットのプロトコルに従って付与されるヘッダのこと。
 https://zenn.dev/masahiro_toba/articles/7d29528aaf1cf3
@@ -214,10 +214,17 @@ VLAN
 ・物理的な接続形態とは別に仮想的なLANセグメント(個々のネットワーク環境のこと)を作る技術のこと。
 ・平たくいうと、１つのLANを仮想的に複数のLANに分けたり、複数のLANを１つのLANに見せたりすること。
 https://panasonic.co.jp/ew/pewnw/solution/column/network/010.html
+
 タグVLAN
 ・ネットワークを流れる個々のデータのフレームに、転送先の識別番号を付与する方法。
 ・この識別番号を目印に、同じグループに所属するネットワークにフレームを送信する。
-https://panasonic.co.jp/ew/pewnw/solution/column/network/010.html
+https://milestone-of-se.nesuke.com/nw-basic/ethernet/tag-native-vlan/
+
+ネイティブVLAN
+・IEEE 802.1Q方式のVLAN
+・トランクリンク上で唯一タグを付けずに送受信されるVLANのこと。
+https://milestone-of-se.nesuke.com/nw-basic/ethernet/tag-native-vlan/
+
 ポートベースVLAN
 ・ルーターやスイッチのポートごとに、VLANを１つだけ設定するVLAN。
 ・同じVLAN　IDが設定されたポートにつながった端末とだけ通信が行える。
@@ -239,17 +246,16 @@ https://www.infraexpert.com/study/vlanz3.html
 ・VLAN IDが未設定の場合に、用いられるVLAN。
 ・VLANを使用する前の初期状態では、すべてのポートがデフォルトVLANに所属している。
 https://e-words.jp/w/%E3%83%87%E3%83%95%E3%82%A9%E3%83%AB%E3%83%88VLAN.html
-ネイティブVLAN
-・IEEE 802.1Q方式のVLAN
-・トランクリンク上で唯一タグを付けずに送受信されるVLANのこと。
-https://e-words.jp/w/%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96VLAN.html
+
 ブロードキャストストーム
 ・ネットワーク全体に情報を送信するブロードキャストパケットが一斉にネットワークに送り出されることで、ネットワーク上が嵐にあったようにいっぱいになって使用不可能になること。
 ・ブロードキャストとは、ネットにつながっている不特定多数の相手に向かってデータを送信すること。
 https://japan.zdnet.com/glossary/exp/%E3%83%96%E3%83%AD%E3%83%BC%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A0/?s=4
+
 スパニングツリープロトコル
 ・円環状(ループ状)に形成されたレイヤ２ネットワークにおいて、データトラフィックが永続的に流れ続けることを防ぐためのプロトコル。
 https://www.infraexpert.com/study/stpz1.html
+
 リンクアグリゲーション
 ・複数の物理リンクを束ねて１つの論理リンクとして扱うことのできる技術のこと。
 https://www.infraexpert.com/study/etherchannel.html
